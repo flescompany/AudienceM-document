@@ -52,6 +52,7 @@ description: 주문시작, 주문완료 수집
 | products    | 주문제품    | Product[]          |
 
 * Product Type
+
 | 키값       | 설명                         | 타입    |
 | ---------- | ---------------------------- | ------- |
 | product_id | 상품 또는 콘텐츠 고유 아이디 | string  |
@@ -95,6 +96,7 @@ description: 주문시작, 주문완료 수집
 | items       | 주문제품 | Item |
 
 * Item Type
+
 | 키값           | 설명 | 타입 |
 | -------------- | ---- | ---- |
 | id | 상품 또는 콘텐츠 고유 아이디 | string |

@@ -2,24 +2,27 @@
 description: how to apply on android
 ---
 
+SDK 작업중
+
 # dependency
 
-```build.gradle```
+**gradle.build**
 
 ```
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://gitpack.io'}
+  }
+}
 ```
 
 ```
-	dependencies {
-    implementation 'com.github.flescompany:AudienceM-SDK-Library:0.0.02'
-	}
+dependencies {
+  implementation 'com.github.flescompany:AudienceM-SDK-Library:0.0.02'
+}
 ```
+
 
 # import
 
