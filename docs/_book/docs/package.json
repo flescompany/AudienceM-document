@@ -4,8 +4,8 @@
   "description": "[Here Official Document]()",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gitbook build && cp _book docs"
+    "dev:watch": "gitbook serve",
+    "build": "gitbook build && copy _book docs"
   },
   "repository": {
     "type": "git",
