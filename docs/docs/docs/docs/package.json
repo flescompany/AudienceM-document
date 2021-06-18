@@ -1,0 +1,21 @@
+{
+  "name": "gb",
+  "version": "1.0.0",
+  "description": "[Here Official Document]()",
+  "main": "index.js",
+  "scripts": {
+    "dev:watch": "gitbook serve",
+    "build": "gitbook build && copy _book docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flescompany/AudienceM-document.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flescompany/AudienceM-document/issues"
+  },
+  "homepage": "https://github.com/flescompany/AudienceM-document#readme"
+}
