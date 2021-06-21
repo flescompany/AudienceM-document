@@ -18,14 +18,14 @@ description: 주문시작, 주문완료 수집
 
 ```json
 {
-	"order_id": "OR000001",	//주문번호
-	"affiliation": "제휴사",			//제휴사
-	"value": 12000,			//총 주문금액
-	"revenue": 10000,			//수익
-	"shipping": 2000,				//배송료
-	"tax": 0,						//세금
-	"discount": 0,				//할인
-	"coupon": 0,					//쿠폰
+	"order_id": "OR000001",	
+	"affiliation": "제휴사",
+	"value": 12000,			
+	"revenue": 10000,		
+	"shipping": 2000,		
+	"tax": 0,						
+	"discount": 0,			
+	"coupon": 0,				
 	"currency": "KRW",
 	"products": [{
     "product_id": "AS0812XA",
@@ -47,8 +47,8 @@ description: 주문시작, 주문완료 수집
 | shipping    | 배송료      | integer            |
 | tax         | 세금        | integer            |
 | discount    | 할인        | integer            |
-| coupon      | 쿠폰        | string             |
-| currency    | 화폐구분    | string (KRW, USDT) |
+| coupon      | 사용한 쿠폰  | string             |
+| currency    | 화폐구분    | string (KRW, USD) |
 | products    | 주문제품    | Product[]          |
 
 * Product Type
@@ -57,7 +57,7 @@ description: 주문시작, 주문완료 수집
 | ---------- | ---------------------------- | ------- |
 | product_id | 상품 또는 콘텐츠 고유 아이디 | string  |
 | sku        | 상품을 구분하는 구분값       | string  |
-| name       | 상품 또는 콘텐츠 이름        | integer |
+| name       | 상품 또는 콘텐츠 이름        | string |
 | price      | 상품 또는 콘텐츠 가격        | integer |
 | quantity   | 상품 또는 콘텐츠 수량        | integer |
 | category   | 상품 또는 콘텐츠 카테고리    | string  |
@@ -90,7 +90,7 @@ description: 주문시작, 주문완료 수집
 | -------------- | ---- | ---- |
 | transaction_id | 주문번호 | string |
 | value          | 총 주문금액 | integer |
-| currency       | 화폐구분 | string (KRW, USDT) |
+| currency       | 화폐구분 | string (KRW, USD) |
 | tax            | 세금 | integer |
 | shipping       | 배송료 | integer |
 | items       | 주문제품 | Item |

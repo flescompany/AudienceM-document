@@ -27,10 +27,9 @@ description: 프로모션 조회, 프로모션 클릭
 
 |키값|설명|타입|
 |------|---|---|
-|promotion_id|프로모션 코드||
-|creative|프로모션 배치 영역||
-|name|프로모션 제목||
-|position|프로모션 배너 위치||
+|promotion_id|프로모션 식별하는 고유값|string|
+|creative|프로모션 배너의 위치식별자(top_banner_1)|string|
+|name|프로모션 제목|string|
 
 
 
@@ -50,9 +49,8 @@ description: 프로모션 조회, 프로모션 클릭
 
 |키값|설명|타입|
 |------|---|---|
-|promotion_id|프로모션 코드||
-|creative|프로모션 배치 영역||
-|name|프로모션 제목||
-|position|프로모션 배너 위치||
+|promotion_id|프로모션 식별하는 고유값|string|
+|프로모션 배너의 위치식별자(top_banner_1)|string|
+|name|프로모션 제목|string|
 
 

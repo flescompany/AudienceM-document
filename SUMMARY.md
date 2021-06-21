@@ -11,6 +11,7 @@
 ### Events
 
 * [General](Events/general.md)
+* [Category](Events/category.md)
 * [Promotion](Events/promotion.md)
 * [Product](Events/product.md)
 * [Order](Events/order.md)
