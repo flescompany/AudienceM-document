@@ -4,9 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Promotion · GitBook</title>
+        <title>General · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="프로모션 조회, 프로모션 클릭">
+        <meta name="description" content="사용자 식별, 검색 수집">
         <meta name="generator" content="GitBook 3.2.3">
         
         
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="product.html" />
+    <link rel="next" href="promotion.html" />
     
     
-    <link rel="prev" href="category.html" />
+    <link rel="prev" href="../GettingStarted/android.html" />
     
 
     </head>
@@ -142,7 +142,7 @@
         
         
     
-        <li class="chapter " data-level="3.1" data-path="general.html">
+        <li class="chapter active" data-level="3.1" data-path="general.html">
             
                 <a href="general.html">
             
@@ -155,20 +155,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3.2" data-path="category.html">
-            
-                <a href="category.html">
-            
-                    
-                    Category
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter active" data-level="3.3" data-path="promotion.html">
+        <li class="chapter " data-level="3.2" data-path="promotion.html">
             
                 <a href="promotion.html">
             
@@ -181,7 +168,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3.4" data-path="product.html">
+        <li class="chapter " data-level="3.3" data-path="product.html">
             
                 <a href="product.html">
             
@@ -194,7 +181,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3.5" data-path="order.html">
+        <li class="chapter " data-level="3.4" data-path="order.html">
             
                 <a href="order.html">
             
@@ -237,7 +224,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Promotion</a>
+        <a href=".." >General</a>
     </h1>
 </div>
 
@@ -252,19 +239,24 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="2-&#xD504;&#xB85C;&#xBAA8;&#xC158;">2. &#xD504;&#xB85C;&#xBAA8;&#xC158;</h2>
-<pre><code>&#xC870;&#xD68C;
-&#xD398;&#xC774;&#xC9C0; &#xD074;&#xB9AD;
-</code></pre><h3 id="21-&#xD504;&#xB85C;&#xBAA8;&#xC158;-&#xC870;&#xD68C;">2.1. &#xD504;&#xB85C;&#xBAA8;&#xC158; &#xC870;&#xD68C;</h3>
+                                <h2 id="1-&#xC77C;&#xBC18;">1. &#xC77C;&#xBC18;</h2>
+<pre><code>&#xC0AC;&#xC6A9;&#xC790; &#xC2DD;&#xBCC4;
+&#xAC80;&#xC0C9;
+</code></pre><h3 id="11-&#xC0AC;&#xC6A9;&#xC790;-&#xC2DD;&#xBCC4;">1.1. &#xC0AC;&#xC6A9;&#xC790; &#xC2DD;&#xBCC4;</h3>
 <ul>
-<li>&#xC774;&#xBCA4;&#xD2B8; &#xBA85;: <strong><code>Promotion Viwed</code></strong></li>
+<li>&#xC774;&#xBCA4;&#xD2B8; &#xBA85;: <strong><code>UserInfo</code></strong></li>
 <li>&#xB370;&#xC774;&#xD130; &#xD3EC;&#xB9F7;</li>
 </ul>
 <pre><code class="lang-json">{
-        <span class="hljs-string">&quot;promotion_id&quot;</span>: <span class="hljs-number">0</span>,
-        <span class="hljs-string">&quot;creative&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,    
-        <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
-        <span class="hljs-string">&quot;position&quot;</span>: <span class="hljs-string">&quot;&quot;</span>
+    <span class="hljs-string">&quot;id&quot;</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-string">&quot;email&quot;</span>: <span class="hljs-string">&quot;test@gmail.com&quot;</span>,
+    <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;tester&quot;</span>,
+    <span class="hljs-string">&quot;age&quot;</span>: <span class="hljs-number">30</span>,
+    <span class="hljs-string">&quot;birthday&quot;</span>: <span class="hljs-string">&quot;2000-01-01&quot;</span>,
+    <span class="hljs-string">&quot;createdAt&quot;</span>: <span class="hljs-string">&quot;2021-06-17&quot;</span>,
+    <span class="hljs-string">&quot;gender&quot;</span>: <span class="hljs-string">&quot;&#xB0A8;&quot;</span>,
+    <span class="hljs-string">&quot;phone&quot;</span>: <span class="hljs-string">&quot;01012341234&quot;</span>,
+    <span class="hljs-string">&quot;website&quot;</span>: <span class="hljs-string">&quot;www.google.com&quot;</span>
 }
 </code></pre>
 <table>
@@ -277,32 +269,59 @@
 </thead>
 <tbody>
 <tr>
-<td>promotion_id</td>
-<td>&#xD504;&#xB85C;&#xBAA8;&#xC158; &#xC2DD;&#xBCC4;&#xD558;&#xB294; &#xACE0;&#xC720;&#xAC12;</td>
-<td>string</td>
+<td>id</td>
+<td>&#xD68C;&#xC6D0;&#xC744; &#xAD6C;&#xBD84;&#xD558;&#xB294; &#xACE0;&#xC720;&#xAC12;</td>
+<td>integer</td>
 </tr>
 <tr>
-<td>creative</td>
-<td>&#xD504;&#xB85C;&#xBAA8;&#xC158; &#xBC30;&#xB108;&#xC758; &#xC704;&#xCE58;&#xC2DD;&#xBCC4;&#xC790;(top_banner_1)</td>
+<td>email</td>
+<td>&#xD68C;&#xC6D0; &#xC774;&#xBA54;&#xC77C;</td>
 <td>string</td>
 </tr>
 <tr>
 <td>name</td>
-<td>&#xD504;&#xB85C;&#xBAA8;&#xC158; &#xC81C;&#xBAA9;</td>
+<td>&#xD68C;&#xC6D0; &#xC774;&#xB984;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>age</td>
+<td>&#xD68C;&#xC6D0; &#xB098;&#xC774;</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>birthday</td>
+<td>&#xD68C;&#xC6D0; &#xC0DD;&#xC77C;</td>
+<td>string (yyyy-mm-dd)</td>
+</tr>
+<tr>
+<td>createdAt</td>
+<td>&#xD68C;&#xC6D0; &#xB4F1;&#xB85D;&#xC77C;</td>
+<td>string (yyyy-mm-dd)</td>
+</tr>
+<tr>
+<td>gender</td>
+<td>&#xD68C;&#xC6D0; &#xC131;&#xBCC4;</td>
+<td>string(&#xB0A8; / &#xC5EC;)</td>
+</tr>
+<tr>
+<td>phone</td>
+<td>&#xD68C;&#xC6D0; &#xC5F0;&#xB77D;&#xCC98;</td>
+<td>string (ddddddddddd)</td>
+</tr>
+<tr>
+<td>website</td>
+<td>&#xD574;&#xB2F9; &#xC0AC;&#xC774;&#xD2B8;</td>
 <td>string</td>
 </tr>
 </tbody>
 </table>
-<h3 id="22-&#xD504;&#xB85C;&#xBAA8;&#xC158;-&#xD398;&#xC774;&#xC9C0;-&#xD074;&#xB9AD;">2.2. &#xD504;&#xB85C;&#xBAA8;&#xC158; &#xD398;&#xC774;&#xC9C0; &#xD074;&#xB9AD;</h3>
+<h3 id="12-&#xAC80;&#xC0C9;">1.2. &#xAC80;&#xC0C9;</h3>
 <ul>
-<li>&#xC774;&#xBCA4;&#xD2B8; &#xBA85;: <strong><code>Promotion Clicked</code></strong></li>
+<li>&#xC774;&#xBCA4;&#xD2B8; &#xBA85;: <strong><code>Products Searched</code></strong></li>
 <li>&#xB370;&#xC774;&#xD130; &#xD3EC;&#xB9F7;</li>
 </ul>
 <pre><code class="lang-json">{
-        <span class="hljs-string">&quot;promotion_id&quot;</span>: <span class="hljs-number">0</span>,
-        <span class="hljs-string">&quot;creative&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,    
-        <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
-        <span class="hljs-string">&quot;position&quot;</span>: <span class="hljs-string">&quot;&quot;</span>
+  <span class="hljs-string">&quot;query&quot;</span>: <span class="hljs-string">&quot;&#xAC80;&#xC0C9;&#xC5B4;&quot;</span>
 }
 </code></pre>
 <table>
@@ -315,17 +334,8 @@
 </thead>
 <tbody>
 <tr>
-<td>promotion_id</td>
-<td>&#xD504;&#xB85C;&#xBAA8;&#xC158; &#xC2DD;&#xBCC4;&#xD558;&#xB294; &#xACE0;&#xC720;&#xAC12;</td>
-<td>string</td>
-</tr>
-<tr>
-<td>&#xD504;&#xB85C;&#xBAA8;&#xC158; &#xBC30;&#xB108;&#xC758; &#xC704;&#xCE58;&#xC2DD;&#xBCC4;&#xC790;(top_banner_1)</td>
-<td>string</td>
-</tr>
-<tr>
-<td>name</td>
-<td>&#xD504;&#xB85C;&#xBAA8;&#xC158; &#xC81C;&#xBAA9;</td>
+<td>Query</td>
+<td>&#xAC80;&#xC0C9; &#xD0A4;&#xC6CC;&#xB4DC;</td>
 <td>string</td>
 </tr>
 </tbody>
@@ -357,12 +367,12 @@
 
             
                 
-                <a href="category.html" class="navigation navigation-prev " aria-label="Previous page: Category">
+                <a href="../GettingStarted/android.html" class="navigation navigation-prev " aria-label="Previous page: Apply Android">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="product.html" class="navigation navigation-next " aria-label="Next page: Product">
+                <a href="promotion.html" class="navigation navigation-next " aria-label="Next page: Promotion">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -373,11 +383,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-<<<<<<< Updated upstream
-            gitbook.page.hasChanged({"page":{"description":"프로모션 조회, 프로모션 클릭","title":"Promotion","level":"3.2","depth":1,"next":{"title":"Product","level":"3.3","depth":1,"path":"Events/product.md","ref":"Events/product.md","articles":[]},"previous":{"title":"General","level":"3.1","depth":1,"path":"Events/general.md","ref":"Events/general.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"INTRO.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Events/promotion.md","mtime":"2021-06-18T05:21:51.690Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-18T05:25:51.969Z"},"basePath":"..","book":{"language":""}});
-=======
-            gitbook.page.hasChanged({"page":{"description":"프로모션 조회, 프로모션 클릭","title":"Promotion","level":"3.3","depth":1,"next":{"title":"Product","level":"3.4","depth":1,"path":"Events/product.md","ref":"Events/product.md","articles":[]},"previous":{"title":"Category","level":"3.2","depth":1,"path":"Events/category.md","ref":"Events/category.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"INTRO.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Events/promotion.md","mtime":"2021-06-21T07:23:12.451Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-21T07:11:45.937Z"},"basePath":"..","book":{"language":""}});
->>>>>>> Stashed changes
+            gitbook.page.hasChanged({"page":{"description":"사용자 식별, 검색 수집","title":"General","level":"3.1","depth":1,"next":{"title":"Promotion","level":"3.2","depth":1,"path":"Events/promotion.md","ref":"Events/promotion.md","articles":[]},"previous":{"title":"Apply Android","level":"2.2","depth":1,"path":"GettingStarted/android.md","ref":"GettingStarted/android.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"INTRO.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Events/general.md","mtime":"2021-06-17T04:15:53.581Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-17T04:36:43.585Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

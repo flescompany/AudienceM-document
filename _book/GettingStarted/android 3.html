@@ -252,7 +252,8 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="dependency">dependency</h1>
+                                <p>SDK &#xC791;&#xC5C5;&#xC911;</p>
+<h1 id="dependency">dependency</h1>
 <p><strong>gradle.build</strong></p>
 <pre><code>allprojects {
   repositories {
@@ -261,18 +262,13 @@
   }
 }
 </code></pre><pre><code>dependencies {
-  implementation &apos;com.github.flescompany:AudienceM-SDK-Library:0.0.04&apos;
+  implementation &apos;com.github.flescompany:AudienceM-SDK-Library:0.0.02&apos;
 }
 </code></pre><h1 id="import">import</h1>
-<pre><code class="lang-java"><span class="hljs-keyword">import</span> com.oneclick.audiencem_sdk_library.AudienceMSDK;
+<pre><code class="lang-java"><span class="hljs-keyword">import</span> com.oneclick.audiencem_sdk_library.ToastClass;
 </code></pre>
 <h1 id="usage">usage</h1>
-<pre><code class="lang-java">AudienceMSDK AMSdk = <span class="hljs-keyword">new</span> AudienceMSDK(Context,<span class="hljs-string">&quot;appKey&quot;</span>); <span class="hljs-comment">// &#xAC1D;&#xCCB4; &#xC120;&#xC5B8;</span>
-
-AMSdk.AMInit(<span class="hljs-string">&quot;event&quot;</span>, JSONObject); <span class="hljs-comment">// &#xC571; &#xC2E4;&#xD589; &#xC2DC; AMTrack() &#xD638;&#xCD9C;&#xC804;&#xC5D0; &#xAC00;&#xC7A5; &#xBA3C;&#xC800; &#xD638;&#xCD9C;&#xB418;&#xC5B4;&#xC57C; &#xD558;&#xB294; &#xD568;&#xC218; (&#xB2E8; &#xD55C;&#xBC88;&#xB9CC; &#xD638;&#xCD9C;&#xB418;&#xC5B4;&#xC57C; &#xD568;. &#xB450;&#xBC88; &#xD638;&#xCD9C; &#xC2DC; &#xC5D0;&#xB7EC;)</span>
-
-AMSdk.AMTrack(<span class="hljs-string">&quot;event&quot;</span>, JSONObject); 
-AMSdk.AMTrack(<span class="hljs-string">&quot;event&quot;</span>, JSONObject);
+<pre><code class="lang-java">ToastClass.Companion.showToast(<span class="hljs-keyword">this</span>,<span class="hljs-string">&quot;&#xD558;&#xC774;&#xB8E8; &#xBB50;&#xC57C; &#xC65C; &#xC548;&#xB5A0;&quot;</span>);
 </code></pre>
 
                                 
@@ -317,11 +313,7 @@ AMSdk.AMTrack(<span class="hljs-string">&quot;event&quot;</span>, JSONObject);
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-<<<<<<< Updated upstream
-            gitbook.page.hasChanged({"page":{"description":"how to apply on android","title":"Apply Android","level":"2.2","depth":1,"next":{"title":"General","level":"3.1","depth":1,"path":"Events/general.md","ref":"Events/general.md","articles":[]},"previous":{"title":"Apply Web","level":"2.1","depth":1,"path":"GettingStarted/web.md","ref":"GettingStarted/web.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"INTRO.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"GettingStarted/android.md","mtime":"2021-06-18T05:21:51.691Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-18T05:25:51.969Z"},"basePath":"..","book":{"language":""}});
-=======
             gitbook.page.hasChanged({"page":{"description":"how to apply on android","title":"Apply Android","level":"2.2","depth":1,"next":{"title":"General","level":"3.1","depth":1,"path":"Events/general.md","ref":"Events/general.md","articles":[]},"previous":{"title":"Apply Web","level":"2.1","depth":1,"path":"GettingStarted/web.md","ref":"GettingStarted/web.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"INTRO.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"GettingStarted/android.md","mtime":"2021-06-17T05:01:59.713Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-21T07:11:45.937Z"},"basePath":"..","book":{"language":""}});
->>>>>>> Stashed changes
         });
     </script>
 </div>
@@ -329,6 +321,10 @@ AMSdk.AMTrack(<span class="hljs-string">&quot;event&quot;</span>, JSONObject);
         
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
     
         
         <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
