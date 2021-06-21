@@ -153,7 +153,20 @@
             
         </li>
     
-        <li class="chapter " data-level="3.2" data-path="promotion.html">
+        <li class="chapter " data-level="3.2" data-path="category.html">
+            
+                <a href="category.html">
+            
+                    
+                    Category
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="promotion.html">
             
                 <a href="promotion.html">
             
@@ -166,7 +179,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3.3" data-path="product.html">
+        <li class="chapter " data-level="3.4" data-path="product.html">
             
                 <a href="product.html">
             
@@ -179,7 +192,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="3.4" data-path="order.html">
+        <li class="chapter active" data-level="3.5" data-path="order.html">
             
                 <a href="order.html">
             
@@ -246,14 +259,14 @@
 <li>&#xB370;&#xC774;&#xD130; &#xD3EC;&#xB9F7;</li>
 </ul>
 <pre><code class="lang-json">{
-    <span class="hljs-string">&quot;order_id&quot;</span>: <span class="hljs-string">&quot;OR000001&quot;</span>,    <span class="hljs-comment">//&#xC8FC;&#xBB38;&#xBC88;&#xD638;</span>
-    <span class="hljs-string">&quot;affiliation&quot;</span>: <span class="hljs-string">&quot;&#xC81C;&#xD734;&#xC0AC;&quot;</span>,            <span class="hljs-comment">//&#xC81C;&#xD734;&#xC0AC;</span>
-    <span class="hljs-string">&quot;value&quot;</span>: <span class="hljs-number">12000</span>,            <span class="hljs-comment">//&#xCD1D; &#xC8FC;&#xBB38;&#xAE08;&#xC561;</span>
-    <span class="hljs-string">&quot;revenue&quot;</span>: <span class="hljs-number">10000</span>,            <span class="hljs-comment">//&#xC218;&#xC775;</span>
-    <span class="hljs-string">&quot;shipping&quot;</span>: <span class="hljs-number">2000</span>,                <span class="hljs-comment">//&#xBC30;&#xC1A1;&#xB8CC;</span>
-    <span class="hljs-string">&quot;tax&quot;</span>: <span class="hljs-number">0</span>,                        <span class="hljs-comment">//&#xC138;&#xAE08;</span>
-    <span class="hljs-string">&quot;discount&quot;</span>: <span class="hljs-number">0</span>,                <span class="hljs-comment">//&#xD560;&#xC778;</span>
-    <span class="hljs-string">&quot;coupon&quot;</span>: <span class="hljs-number">0</span>,                    <span class="hljs-comment">//&#xCFE0;&#xD3F0;</span>
+    <span class="hljs-string">&quot;order_id&quot;</span>: <span class="hljs-string">&quot;OR000001&quot;</span>,    
+    <span class="hljs-string">&quot;affiliation&quot;</span>: <span class="hljs-string">&quot;&#xC81C;&#xD734;&#xC0AC;&quot;</span>,
+    <span class="hljs-string">&quot;value&quot;</span>: <span class="hljs-number">12000</span>,            
+    <span class="hljs-string">&quot;revenue&quot;</span>: <span class="hljs-number">10000</span>,        
+    <span class="hljs-string">&quot;shipping&quot;</span>: <span class="hljs-number">2000</span>,        
+    <span class="hljs-string">&quot;tax&quot;</span>: <span class="hljs-number">0</span>,                        
+    <span class="hljs-string">&quot;discount&quot;</span>: <span class="hljs-number">0</span>,            
+    <span class="hljs-string">&quot;coupon&quot;</span>: <span class="hljs-number">0</span>,                
     <span class="hljs-string">&quot;currency&quot;</span>: <span class="hljs-string">&quot;KRW&quot;</span>,
     <span class="hljs-string">&quot;products&quot;</span>: [{
     <span class="hljs-string">&quot;product_id&quot;</span>: <span class="hljs-string">&quot;AS0812XA&quot;</span>,
@@ -311,13 +324,13 @@
 </tr>
 <tr>
 <td>coupon</td>
-<td>&#xCFE0;&#xD3F0;</td>
+<td>&#xC0AC;&#xC6A9;&#xD55C; &#xCFE0;&#xD3F0;</td>
 <td>string</td>
 </tr>
 <tr>
 <td>currency</td>
 <td>&#xD654;&#xD3D0;&#xAD6C;&#xBD84;</td>
-<td>string (KRW, USDT)</td>
+<td>string (KRW, USD)</td>
 </tr>
 <tr>
 <td>products</td>
@@ -351,7 +364,7 @@
 <tr>
 <td>name</td>
 <td>&#xC0C1;&#xD488; &#xB610;&#xB294; &#xCF58;&#xD150;&#xCE20; &#xC774;&#xB984;</td>
-<td>integer</td>
+<td>string</td>
 </tr>
 <tr>
 <td>price</td>
@@ -411,7 +424,7 @@
 <tr>
 <td>currency</td>
 <td>&#xD654;&#xD3D0;&#xAD6C;&#xBD84;</td>
-<td>string (KRW, USDT)</td>
+<td>string (KRW, USD)</td>
 </tr>
 <tr>
 <td>tax</td>
@@ -503,7 +516,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"description":"주문시작, 주문완료 수집","title":"Order","level":"3.4","depth":1,"previous":{"title":"Product","level":"3.3","depth":1,"path":"Events/product.md","ref":"Events/product.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"INTRO.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Events/order.md","mtime":"2021-06-18T05:21:51.690Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-18T05:25:51.969Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"description":"주문시작, 주문완료 수집","title":"Order","level":"3.5","depth":1,"previous":{"title":"Product","level":"3.4","depth":1,"path":"Events/product.md","ref":"Events/product.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"INTRO.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Events/order.md","mtime":"2021-06-21T08:21:40.975Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-21T08:32:51.297Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
