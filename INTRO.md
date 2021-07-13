@@ -18,3 +18,7 @@ Official Document of **```AudienceM SDK```**
 * [Promotion](Events/promotion.md)
 * [Product](Events/product.md)
 * [Order](Events/order.md)
+
+### Category
+
+* [Industry](Category/industry.md)
