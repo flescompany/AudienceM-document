@@ -1,24 +1,2 @@
-# Introduction
+# Page 1
 
-Official Document of **```AudienceM SDK```** 
-
-# Summary
-
-* [Introduction](INTRO.md)
-
-### Getting Started
-
-* [Apply Web](GettingStarted/web.md)
-* [Apply Android](GettingStarted/android.md)
-
-
-### Events
-
-* [General](Events/general.md)
-* [Promotion](Events/promotion.md)
-* [Product](Events/product.md)
-* [Order](Events/order.md)
-
-### Category
-
-* [Industry](Category/industry.md)
