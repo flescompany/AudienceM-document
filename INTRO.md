@@ -4,7 +4,7 @@
 
 ```html
 <head>
-    <script src="https://flesanalysis.s3.ap-northeast-2.amazonaws.com/v0.2.1/bundle.js"></script>
+    <script src="https://flesanalysis.s3.ap-northeast-2.amazonaws.com/v0.2.3/bundle.js"></script>
 </head>
 ```
 
