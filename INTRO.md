@@ -20,8 +20,6 @@
 
 ## usage
 
-if you want to check, go to event page
-
-```js
+```
 window.analytics.track('event', object);
 ```
