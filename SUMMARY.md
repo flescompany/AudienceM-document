@@ -1,5 +1,21 @@
-# Table of contents
+# Summary
 
-* [1. installation](INTRO.md)
-* [2. identify user](2.-identify-user.md)
-* [3. track event](3.-track-event.md)
+* [Introduction](INTRO.md)
+
+### Getting Started
+
+* [Apply Web](GettingStarted/web.md)
+* [Apply Android](GettingStarted/android.md)
+
+
+### Events
+
+* [General](Events/general.md)
+* [Promotion](Events/promotion.md)
+* [Product](Events/product.md)
+* [Order](Events/order.md)
+
+
+### Category
+
+* [Industry](Category/industry.md)

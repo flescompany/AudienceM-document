@@ -1,25 +1,24 @@
-# 1. installation
+# Introduction
 
-## CDN
+Official Document of **```AudienceM SDK```** 
 
-```html
-<head>
-    <script src="https://flesanalysis.s3.ap-northeast-2.amazonaws.com/v0.2.3/bundle.js"></script>
-</head>
-```
+# Summary
 
-## setup
+* [Introduction](INTRO.md)
 
-```html
-<script>
-      const accessKey = 'YOUR ACCESSKEY';
-      const FA = new FlesAnalysis(accessKey);
-      FA.start();
-</script>
-```
+### Getting Started
 
-## usage
+* [Apply Web](GettingStarted/web.md)
+* [Apply Android](GettingStarted/android.md)
 
-```
-window.analytics.track('event', object);
-```
+
+### Events
+
+* [General](Events/general.md)
+* [Promotion](Events/promotion.md)
+* [Product](Events/product.md)
+* [Order](Events/order.md)
+
+### Category
+
+* [Industry](Category/industry.md)
